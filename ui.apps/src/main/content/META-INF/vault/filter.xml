@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/shanuun/clientlibs"/>
+    <filter root="/apps/shanuun/components"/>
+    <filter root="/apps/shanuun/i18n"/>
+</workspaceFilter>
