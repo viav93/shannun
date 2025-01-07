@@ -55,25 +55,25 @@ const TitleV2 = withAsyncImport(() => import(`@adobe/aem-core-components-react-b
 const CarouselV1 = withAsyncImport(() => import(`@adobe/aem-core-components-react-spa/dist/container/carousel/v1/CarouselV1`));
 
 
-MapTo('shanuun/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
-MapTo('shanuun/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
-MapTo('shanuun/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/download')(DownloadV1, {isEmpty: DownloadV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/list')(ListV2, {isEmpty: ListV2IsEmptyFn});
+MapTo('vation-react-spa-site/components/separator')(SeparatorV1, {isEmpty: SeparatorV1IsEmptyFn});
 
-MapTo('shanuun/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
-MapTo('shanuun/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
-MapTo('shanuun/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
-MapTo('shanuun/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
-
-
-MapTo('shanuun/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
-MapTo('shanuun/components/navigation')(NavigationV1);
-MapTo('shanuun/components/languagenavigation')(LanguageNavigationV1);
+MapTo('vation-react-spa-site/components/button')(ButtonV1, {isEmpty: ButtonV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/teaser')(TeaserV1, {isEmpty: TeaserV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/image')(ImageV2, {isEmpty: ImageV2IsEmptyFn});
+MapTo('vation-react-spa-site/components/title')(TitleV2, {isEmpty: TitleV2IsEmptyFn});
 
 
-MapTo('shanuun/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
-MapTo('shanuun/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
-MapTo('shanuun/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
-MapTo('shanuun/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/breadcrumb')(BreadCrumbV2, {isEmpty: BreadCrumbV2IsEmptyFn});
+MapTo('vation-react-spa-site/components/navigation')(NavigationV1);
+MapTo('vation-react-spa-site/components/languagenavigation')(LanguageNavigationV1);
+
+
+MapTo('vation-react-spa-site/components/tabs')(TabsV1, {isEmpty: TabsV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/accordion')(AccordionV1, {isEmpty: AccordionV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/carousel')(CarouselV1, {isEmpty: CarouselV1IsEmptyFn});
+MapTo('vation-react-spa-site/components/container')(ContainerV1, {isEmpty: ContainerV1IsEmptyFn});
 
 
 //lazy load of internal component (hello world)
@@ -91,4 +91,4 @@ const TextEditConfig = {
     }
 };
 
-MapTo('shanuun/components/text')(LazyTextComponent, TextEditConfig);
+MapTo('vation-react-spa-site/components/text')(LazyTextComponent, TextEditConfig);

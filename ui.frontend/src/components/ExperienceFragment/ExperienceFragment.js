@@ -28,5 +28,5 @@ const ExperienceFragmentVariationConfig = {
     }
 };
 
-MapTo('shanuun/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
+MapTo('vation-react-spa-site/components/experiencefragment')(withComponentMappingContext(Container), ExperienceFragmentVariationConfig);
 

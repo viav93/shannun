@@ -1,0 +1,29 @@
+<sly data-sly-use.model="com.shannun.core.models.FlightSearchPanel"
+     data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasContent="${model.title && model.type && model.teaserImage}"
+     data-sly-use.clientlib="${'apps.shannun.clientlibs.ey_clientlib.ClientLibUseObject' @ categories='shannun.base', mode='', loading='', onload='', crossorigin=''}">
+        <div class="cmp-flight-search-panel" data-react-parent="FlightSearchPanelComponent" data-react-component="flight-search-panel" data-id="${model.id}" data-path="${model.resourcePath}" data-clientlib="${clientlib.getJsPath}">
+            <h2 class="cmp-flight-search-panel__title">${model.title}</h2>
+            
+            <div class="cmp-flight-search-panel__description">
+                ${model.description @ context="html"}
+            </div>
+            
+            <div class="cmp-flight-search-panel__type">
+                ${model.type}
+            </div>
+            
+            <ul class="cmp-flight-search-panel__links">
+                <sly data-sly-list.link="${model.links}">
+                    <li class="cmp-flight-search-panel__link">
+                        <a href="${link.ctaLink}">${link.ctaText}</a>
+                    </li>
+                </sly>
+            </ul>
+            
+            <div class="cmp-flight-search-panel__image">
+                <img src="${model.teaserImage}" alt="${model.title}" />
+            </div>
+        </div>
+</sly>
+<sly data-sly-call="${templates.placeholder @ isEmpty=!hasContent, classAppend='cmp-flight-search-panel'}"></sly>

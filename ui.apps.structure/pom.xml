@@ -6,8 +6,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.shanuun</groupId>
-        <artifactId>shanuun</artifactId>
+        <groupId>com.wf.react.spa</groupId>
+        <artifactId>vation-react-spa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,9 +15,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>shanuun.ui.apps.structure</artifactId>
+    <artifactId>vation-react-spa.ui.apps.structure</artifactId>
     <packaging>content-package</packaging>
-    <name>Shanuun - Repository Structure Package</name>
+    <name>Vation React SPA Site - Repository Structure Package</name>
     <description>
         Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
         Any roots in the Code packages of this project should have their parent enumerated in the Filters list below.
@@ -35,7 +35,7 @@
                     <filters>
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
-                        <filter><root>/apps/shanuun</root></filter>
+                        <filter><root>/apps/vation-react-spa-site</root></filter>
                         <!-- Common overlay roots -->
                                                 <filter><root>/apps/sling</root></filter>
                         <filter><root>/apps/cq</root></filter>
@@ -47,7 +47,7 @@
                         <filter><root>/apps/settings</root></filter>
 
                         <!-- DAM folder root, will be created via repoinit -->
-                        <filter><root>/content/dam/shanuun</root></filter>
+                        <filter><root>/content/dam/vation-react-spa-site</root></filter>
 
                     </filters>
                 </configuration>

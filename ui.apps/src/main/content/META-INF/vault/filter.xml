@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/shanuun/clientlibs"/>
-    <filter root="/apps/shanuun/components"/>
-    <filter root="/apps/shanuun/i18n"/>
+    <filter root="/apps/vation-react-spa-site/clientlibs"/>
+    <filter root="/apps/vation-react-spa-site/components"/>
+    <filter root="/apps/vation-react-spa-site/i18n"/>
+    <filter root="/apps/msm/vation-react-spa-site_blueprint" mode="merge"/>
 </workspaceFilter>

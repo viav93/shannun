@@ -24,7 +24,7 @@ import { withRoute } from '../RouteHelper/RouteHelper';
 require('./Page.css');
 
 // This component is a variant of a Page component mapped to the
-// "shanuun/components/page" resource type. For now, the rendering is
+// "vation-react-spa-site/components/page" resource type. For now, the rendering is
 // the same as the RootPage; this is more for illustration purposes
 class AppPage extends Page {
   get containerProps() {
@@ -35,6 +35,6 @@ class AppPage extends Page {
   }
 }
 
-export default MapTo('shanuun/components/page')(
+export default MapTo('vation-react-spa-site/components/page')(
   withComponentMappingContext(withRoute(AppPage))
 );

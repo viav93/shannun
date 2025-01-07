@@ -15,6 +15,6 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <workspaceFilter version="1.0">
-    <filter root="/apps/shanuun-packages"/>
-    <filter root="/apps/shanuun-vendor-packages"/>
+    <filter root="/apps/vation-react-spa-site-packages"/>
+    <filter root="/apps/vation-react-spa-site-vendor-packages"/>
 </workspaceFilter>

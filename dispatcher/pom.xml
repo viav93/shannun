@@ -7,16 +7,16 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.shanuun</groupId>
-        <artifactId>shanuun</artifactId>
+        <groupId>com.wf.react.spa</groupId>
+        <artifactId>vation-react-spa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>shanuun.dispatcher.cloud</artifactId>
+    <artifactId>vation-react-spa.dispatcher.cloud</artifactId>
     <packaging>pom</packaging>
-    <name>Shanuun - Dispatcher</name>
-    <description>HTTP &amp; Dispatcher configurations for Shanuun</description>
+    <name>Vation React SPA Site - Dispatcher</name>
+    <description>HTTP &amp; Dispatcher configurations for Vation React SPA Site</description>
 
     <build>
         <plugins>

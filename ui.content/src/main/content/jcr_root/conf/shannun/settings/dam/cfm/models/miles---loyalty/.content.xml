@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastModified="{Date}2024-09-18T10:47:24.081+05:30"
+        cq:lastModifiedBy="admin"
+        cq:scaffolding="/conf/shannun/settings/dam/cfm/models/miles---loyalty/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Miles"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        status="enabled">
+        <metadata jcr:primaryType="nt:unstructured"/>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2024-09-18T10:47:24.081+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_726635477969
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
+                            fieldLabel="Loyalty"
+                            listOrder="11"
+                            metaType="tab-placeholder"
+                            name="placeholder"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/tab"/>
+                        <_x0031_726493092443
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Missing Miles"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="missingMiles"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493092443>
+                        <_x0031_726493108624
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Missing miles description"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="missingMilesDescription"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493108624>
+                        <_x0031_726493125819
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Missing miles image"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="missingMilesImage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="true"
+                            validation="cfm.validation.contenttype.image"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                showThumbnail="true"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_726493125819>
+                        <_x0031_726493154277
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Latest Miles Activity"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="latestMilesActivity"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493154277>
+                        <_x0031_726493927622
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="View All Link"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="viewAllLink"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493927622>
+                        <_x0031_726493947012
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Activities Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="activitiesLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493947012>
+                        <_x0031_726493963412
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Guest Miles Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="guestMilesLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493963412>
+                        <_x0031_726493972118
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Tier Miles Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="tierMilesLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493972118>
+                        <_x0031_726493447479
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Quick Actions Title"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="quickActionsTitle"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493447479>
+                        <_x0031_726493456557
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Quick Actions Description"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="quickActionsDescription"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493456557>
+                        <_x0031_726493698521
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            fieldLabel="Quick Actions List"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="quickActionsList"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/shannun/content-fragments/profile"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference[]">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                mvmaxitems="3"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                                name="quickActionsList"
+                                renderReadOnly="false"
+                                rootPath="/content/dam/shannun/content-fragments/profile">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    mvmaxitems="3"
+                                    thumbnail-validation="cfm.validation.thumbnail.show"/>
+                            </field>
+                        </_x0031_726493698521>
+                        <_x0031_726493732077
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Family Membership Title"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="familyMembershipTitle"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493732077>
+                        <_x0031_726493741943
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Family Membership Description"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="familyMembershipDescription"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493741943>
+                        <_x0031_726493755408
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Family Membership Link"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="familyMembershipLink"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726493755408>
+                        <_x0031_726494624592
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Teaser Link"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="teaserLink"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/experience-fragments/shannun"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_726494624592>
+                        <_x0031_726635812730
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/tabplaceholder"
+                            fieldLabel="No Loyalty"
+                            listOrder="11"
+                            metaType="tab-placeholder"
+                            name="placeholder"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/tab"/>
+                        <_x0031_726635821731
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="No Loyalty Image"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="noLoyaltyImage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_726635821731>
+                        <_x0031_726635846088
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Text"
+                            checked="false"
+                            default-mime-type="text/html"
+                            listOrder="2"
+                            metaType="text-multi"
+                            name="text"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/multiline"/>
+                        <_x0031_726635864274
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Join Now Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="joinNowLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726635864274>
+                        <_x0031_726635870890
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="How it works "
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="howItWorks"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_726635870890>
+                        <_x0031_726635926376
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
+                            allowNew="{Boolean}true"
+                            fieldLabel="No Loyalty Cards"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/shannun/settings/dam/cfm/models/profile-accordion-item"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="noLoyaltyCards"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="/conf/shannun/settings/dam/cfm/models/profile-accordion-item"
+                                name="noLoyaltyCards"
+                                renderReadOnly="false">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    mvmaxitems="3"/>
+                            </field>
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                mvmaxitems="3"/>
+                        </_x0031_726635926376>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+    </jcr:content>
+</jcr:root>

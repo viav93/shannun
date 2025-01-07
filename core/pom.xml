@@ -18,14 +18,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.shanuun</groupId>
-        <artifactId>shanuun</artifactId>
+        <groupId>com.wf.react.spa</groupId>
+        <artifactId>vation-react-spa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>shanuun.core</artifactId>
-    <name>Shanuun - Core</name>
-    <description>Core bundle for Shanuun</description>
+    <artifactId>vation-react-spa.core</artifactId>
+    <name>Vation React SPA Site - Core</name>
+    <description>Core bundle for Vation React SPA Site</description>
     <build>
         <plugins>
             <plugin>

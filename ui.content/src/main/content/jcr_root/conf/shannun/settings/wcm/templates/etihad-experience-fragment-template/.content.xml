@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2024-09-17T14:42:54.751+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/shannun/settings/wcm/template-types/experience-fragment-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Etihad Experience Fragment Template"
+        status="enabled"/>
+</jcr:root>

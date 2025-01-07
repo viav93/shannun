@@ -18,15 +18,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.shanuun</groupId>
-        <artifactId>shanuun</artifactId>
+        <groupId>com.wf.react.spa</groupId>
+        <artifactId>vation-react-spa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>shanuun.it.tests</artifactId>
-    <name>Shanuun - Integration Tests</name>
-    <description>Integration Tests for Shanuun</description>
+    <artifactId>vation-react-spa.it.tests</artifactId>
+    <name>Vation React SPA Site - Integration Tests</name>
+    <description>Integration Tests for Vation React SPA Site</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

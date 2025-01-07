@@ -30,5 +30,5 @@ const ContainerConfig = {
 };
 
 
-MapTo('shanuun/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
+MapTo('vation-react-spa-site/components/container')(withComponentMappingContext(AllowedComponentsContainer), ContainerConfig);
 

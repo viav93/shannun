@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <shannun jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <container jcr:primaryType="nt:unstructured">
+                <policy_1146233560311700
+                    cq:styleDefaultElement="div"
+                    jcr:lastModified="{Date}2024-09-10T16:44:59.086+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Etihad.Airways Container"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="group:Shannun - Content"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Position"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="left"
+                                    cq:styleElement="div"
+                                    cq:styleId="1725963527301"
+                                    cq:styleLabel="Left"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="right"
+                                    cq:styleElement="div"
+                                    cq:styleId="1725963533846"
+                                    cq:styleLabel="Right"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1146233560311700>
+                <policy_1146818860956800
+                    jcr:lastModified="{Date}2024-09-10T15:59:10.599+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Etihad.Airways Template Container"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="group:Shannun - Content"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1146818860956800>
+            </container>
+            <page jcr:primaryType="nt:unstructured">
+                <policy_1725962895500
+                    jcr:lastModified="{Date}2024-09-10T15:39:56.689+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Etihad.Airways Content Page"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="shannun.base"
+                    clientlibsAsync="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Background Image"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="basic"
+                                    cq:styleId="1725962949381"
+                                    cq:styleLabel="Basic"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="advanced"
+                                    cq:styleId="1725962975362"
+                                    cq:styleLabel="Advanced"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1725962895500>
+            </page>
+        </components>
+    </shannun>
+</jcr:root>

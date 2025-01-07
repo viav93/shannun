@@ -1,0 +1,16 @@
+<svg width="160" height="130" viewBox="0 0 160 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Facets &#38; Patterns">
+<mask id="mask0_5171_63947" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="175" height="130">
+<rect id="Mask" width="175" height="130" fill="url(#paint0_linear_5171_63947)"/>
+</mask>
+<g mask="url(#mask0_5171_63947)">
+<path id="Facet lines" d="M0 130L76.7215 47.5187M76.7215 47.5187L90.97 0H170.981M76.7215 47.5187L170.981 0M76.7215 47.5187L125.678 65.3382M170.981 0L125.678 65.3382M125.678 65.3382L169.154 101.676L175 54.5067L125.678 65.3382Z" stroke="#EDE0DB" stroke-width="0.6"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5171_63947" x1="175" y1="-7.7486e-06" x2="50.5392" y2="167.543" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.5"/>
+<stop offset="0.795" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

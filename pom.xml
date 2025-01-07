@@ -21,11 +21,11 @@
           
   
   
-  <groupId>com.shanuun</groupId>
+  <groupId>com.wf.react.spa</groupId>
           
   
   
-  <artifactId>shanuun</artifactId>
+  <artifactId>vation-react-spa</artifactId>
           
   
   
@@ -37,11 +37,11 @@
           
   
   
-  <name>Shanuun</name>
+  <name>Vation React SPA Site</name>
           
   
   
-  <description>Shanuun</description>
+  <description>Vation React SPA Site</description>
           
   
   
@@ -159,7 +159,7 @@
                     
     
     
-    <componentGroupName>Shanuun</componentGroupName>
+    <componentGroupName>Vation React SPA Site</componentGroupName>
                 
   
   

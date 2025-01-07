@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/shanuun" mode="merge"/>
-    <filter root="/content/shanuun" mode="merge"/>
-    <filter root="/content/dam/shanuun" mode="merge">
-        <exclude pattern="/content/dam/shanuun(/.*)?"/>
-        <include pattern="/content/dam/shanuun/jcr:content(/.*)?"/>
+    <filter root="/conf/vation-react-spa-site" mode="merge"/>
+    <filter root="/content/vation-react-spa-site" mode="merge"/>
+    <filter root="/content/dam/vation-react-spa-site" mode="merge">
+        <exclude pattern="/content/dam/vation-react-spa-site(/.*)?"/>
+        <include pattern="/content/dam/vation-react-spa-site/jcr:content(/.*)?"/>
     </filter>
-    <filter root="/content/dam/shanuun/asset.jpg" mode="merge"/>
-    <filter root="/content/experience-fragments/shanuun" mode="merge"/>
+    <filter root="/content/dam/vation-react-spa-site/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/vation-react-spa-site" mode="merge"/>
 </workspaceFilter>

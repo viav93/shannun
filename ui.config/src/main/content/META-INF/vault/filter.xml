@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/shanuun/osgiconfig"/>
+    <filter root="/apps/vation-react-spa-site/osgiconfig"/>
 </workspaceFilter>

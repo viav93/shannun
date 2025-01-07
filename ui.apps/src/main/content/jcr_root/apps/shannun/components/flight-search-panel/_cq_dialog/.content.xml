@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Flight Search Panel"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs jcr:primaryType="nt:unstructured"
+                  sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                  maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <tab1 jcr:primaryType="nt:unstructured"
+                          jcr:title="Text"
+                          sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <titleField jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Title"
+                                        name="./title"
+                                        required="{Boolean}true"/>
+                            <description jcr:primaryType="nt:unstructured"
+                                         sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                                         fieldLabel="Description"
+                                         name="./description"
+                                         useFixedInlineToolbar="{Boolean}true"/>
+                            <type jcr:primaryType="nt:unstructured"
+                                  sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                  fieldLabel="Select type"
+                                  name="./type"
+                                  required="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1 jcr:primaryType="nt:unstructured"
+                                             sling:resourceType="granite/ui/components/coral/foundation/form/option"
+                                             text="Option 1"
+                                             value="option1"/>
+                                    <option2 jcr:primaryType="nt:unstructured"
+                                             sling:resourceType="granite/ui/components/coral/foundation/form/option"
+                                             text="Option 2"
+                                             value="option2"/>
+                                </items>
+                            </type>
+                        </items>
+                    </tab1>
+                    <tab2 jcr:primaryType="nt:unstructured"
+                          jcr:title="Links"
+                          sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <links jcr:primaryType="nt:unstructured"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                   fieldLabel="Links"
+                                   fieldDescription="Add multiple links with CTA"
+                                   composite="{Boolean}true">
+                                <field jcr:primaryType="nt:unstructured"
+                                       sling:resourceType="granite/ui/components/coral/foundation/container"
+                                       name="./links">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <ctaLink jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                 fieldLabel="Link"
+                                                 rootPath="/content/wknd"
+                                                 name="./ctaLink"
+                                                 required="{Boolean}true"/>
+                                        <ctaText jcr:primaryType="nt:unstructured"
+                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                 fieldLabel="Link Text"
+                                                 name="./ctaText"
+                                                 required="{Boolean}true"/>
+                                    </items>
+                                </field>
+                            </links>
+                        </items>
+                    </tab2>
+                    <tab3 jcr:primaryType="nt:unstructured"
+                          jcr:title="Image"
+                          sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <teaserImage jcr:primaryType="nt:unstructured"
+                                         sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                         fieldLabel="Teaser Image"
+                                         fileNameParameter="./fileName"
+                                         fileReferenceParameter="./teaserImage"
+                                         fieldDescription="Select the image"
+                                         allowUpload="{Boolean}false"
+                                         autoStart="{Boolean}false"
+                                         class="cq-droptarget"
+                                         mimeTypes="[image/*]"
+                                         multiple="{Boolean}false"
+                                         name="./file"
+                                         useHTML5="{Boolean}true"
+                                         required="{Boolean}true"/>
+                        </items>
+                    </tab3>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
+

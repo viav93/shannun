@@ -21,8 +21,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.shanuun</groupId>
-        <artifactId>shanuun</artifactId>
+        <groupId>com.wf.react.spa</groupId>
+        <artifactId>vation-react-spa</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +30,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>shanuun.ui.apps</artifactId>
+    <artifactId>vation-react-spa.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>Shanuun - UI apps</name>
-    <description>UI apps package for Shanuun</description>
+    <name>Vation React SPA Site - UI apps</name>
+    <description>UI apps package for Vation React SPA Site</description>
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
@@ -51,13 +51,13 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
-                    <group>com.shanuun</group>
-                    <name>shanuun.ui.apps</name>
+                    <group>com.wf.react.spa</group>
+                    <name>vation-react-spa.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
-                            <groupId>com.shanuun</groupId>
-                            <artifactId>shanuun.ui.apps.structure</artifactId>
+                            <groupId>com.wf.react.spa</groupId>
+                            <artifactId>vation-react-spa.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
@@ -107,14 +107,14 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.shanuun</groupId>
-            <artifactId>shanuun.core</artifactId>
+            <groupId>com.wf.react.spa</groupId>
+            <artifactId>vation-react-spa.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.shanuun</groupId>
-            <artifactId>shanuun.ui.frontend</artifactId>
+            <groupId>com.wf.react.spa</groupId>
+            <artifactId>vation-react-spa.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
@@ -131,8 +131,8 @@
             <artifactId>spa.project.core.core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.shanuun</groupId>
-            <artifactId>shanuun.ui.apps.structure</artifactId>
+            <groupId>com.wf.react.spa</groupId>
+            <artifactId>vation-react-spa.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
